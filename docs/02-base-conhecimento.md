@@ -6,12 +6,10 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
-| `balancete.csv` | CSV | Gerar visão mensal do total de gastos |
-| `perfil_investidor.json` | JSON | Identificar perfil com base em renda e metas. Personalizar recomendações |
-| `gastos.csv` | CSV | Registrar despesas detalhadamente |
+| `balancete.csv` | CSV | Gerar visão mensal do total de gastos. |
+| `perfil.json` | JSON | Identificar perfil com base em renda e metas. Personalizar recomendações com base nelas. |
+| `gastos.csv` | CSV | Registrar despesas detalhadamente. |
 
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
 
 ---
 
@@ -19,7 +17,9 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+A tabela  gastos vai mostrar as despesas do usuário detalhadamente.
+A tabela balancete vai mostrar quanto o usuário gastou mensalmente.
+O perfil demonstra o tipo do usuário, qual seu salário e as metas de gastos no mês.
 
 ---
 
