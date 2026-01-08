@@ -45,11 +45,9 @@ Sim
 ```
 Dados do Cliente:
 - Nome: João Silva
-- Perfil: Moderado
-- Saldo disponível: R$ 5.000
+- Meta: R$ 2.500
+- Gasto no mês 12: R$ 5.000
 
-Últimas transações:
-- 01/11: Supermercado - R$ 450
-- 03/11: Streaming - R$ 55
+
 ...
 ```
