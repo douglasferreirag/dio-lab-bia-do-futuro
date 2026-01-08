@@ -33,12 +33,12 @@ Defina **o que** seu agente faz e **como** ele funciona:
 
 Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
 
-| Arquivo | Formato | Descrição |
-|---------|---------|-----------|
-| `transacoes.csv` | CSV | Histórico de transações do cliente |
-| `historico_atendimento.csv` | CSV | Histórico de atendimentos anteriores |
-| `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
-| `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
+| Arquivo | Formato | Utilização no Agente |
+|---------|---------|---------------------|
+| `balancete.csv` | CSV | Gerar visão mensal do total de gastos. |
+| `perfil.json` | JSON | Identificar perfil com base em renda e metas. Personalizar recomendações com base nelas. |
+| `gastos.csv` | CSV | Registrar despesas detalhadamente. |
+
 
 Você pode adaptar ou expandir esses dados conforme seu caso de uso.
 
