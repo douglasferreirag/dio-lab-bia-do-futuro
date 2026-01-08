@@ -51,8 +51,50 @@ with open('data/perfil.json', 'r', encoding = 'utf-8') as p:
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-Sim
-Sim
+É sugerível simplificar o máximo possível. Podemos injetados também. Para ganhar flexibilidade, o ideal é que os dados sejam carregados dinamicamente.
+
+``` text
+
+#Dados do Perfil:
+
+{
+  
+  "id": 1,
+  "nome": "João Silva",
+  "idade": 32,
+  "profissao": "Analista de Sistemas",
+  "renda_mensal": 5000.00,
+  "metas": [
+    {
+      "mes": 1,
+      "ano": 2025,
+      "valor": "1000"
+    },
+    {
+       "mes": 2,
+      "ano": 2025,
+      "valor": "700"
+    }
+  ]
+}
+
+#Dados do Gasto
+
+data	descricao	categoria	valor	id_perfil
+2025-10-01	Aluguel	moradia	1200.00	1
+2025-10-02	Recarga para celular	comunicacao	250.00	1
+2025-10-03	Supermercado	casa	450.00	1
+
+#Dados do Balancete
+
+mês	ano	total	id_perfil
+1	2025	600.00	1
+2	2025	500.00	1
+3	2025	1000.00	1
+
+
+
+```
 
 ---
 
@@ -60,12 +102,32 @@ Sim
 
 > Mostre um exemplo de como os dados são formatados para o agente.
 
-``` text
-Dados do Cliente:
-- Nome: João Silva
-- Meta: R$ 2.500
-- Gasto no mês 12: R$ 5.000
+Dados do Balancete
+
+- mes: 1
+- ano: 2025
+- total: 600.00
+- id_perfil: 1
+
+Dados do Gasto
+
+- data: 2025-10-01
+- descricao: Aluguel	
+- categoria: moradia
+- valor: 1200.00
+- id_perfil: 1
 
 
-...
-```
+Dados do Perfil
+
+- id: 1
+- nome: João Silva
+- profissao: Analista de Sistemas
+- metas:
+  - mes: 1
+  - ano: 2025
+  - valor: 100
+
+  - mes: 2
+  - ano: 2025
+  - valor: 700
