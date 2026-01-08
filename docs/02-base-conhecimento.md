@@ -9,7 +9,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 | `balancete.csv` | CSV | Gerar visão mensal do total de gastos. |
 | `perfil.json` | JSON | Identificar perfil com base em renda. |
 | `metas.csv` | CSV | Registrar metas mensais |
-| `gastos.csv` | CSV | Registrar despesas detalhadamente. |
+| `gasto.csv` | CSV | Registrar despesas detalhadamente. |
 
 
 ---
@@ -18,10 +18,10 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-A tabela  gastos vai mostrar as despesas do usuário detalhadamente.
-A tabela balancete vai mostrar quanto o usuário gastou mensalmente.
+A tabela de gastos vai mostrar as despesas do usuário detalhadamente.
+A tabela de balancete vai mostrar quanto o usuário gastou mensalmente.
 O perfil demonstra o tipo do usuário e qual seu salário.
-A tabela metas mostra as metas mensais que o usuário não pode ultrapassar.
+A tabela de metas mostra as metas mensais que o usuário não pode ultrapassar.
 
 ---
 
@@ -41,6 +41,7 @@ import json
 
 gastos = pd.read_csv('data.gastos')
 balancete  = pd.read_csv('data.balancete')
+meta  = pd.read_csv('data.meta')
 
 #JSONs
 
@@ -125,7 +126,7 @@ Dados do Perfil
 - nome: João Silva
 - profissao: Analista de Sistemas
 
-Dados da meta
+Dados da Meta
 
 -  mes: 1
 - ano: 2025
