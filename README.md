@@ -38,7 +38,7 @@ Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alim
 | `balancete.csv` | CSV | Gerar visão mensal do total de gastos. |
 | `perfil.json` | JSON | Identificar perfil com base em renda.  |
 | `meta.csv` | CSV | Registrar metas mensais. |
-| `gastos.csv` | CSV | Registrar despesas detalhadamente. |
+| `gasto.csv` | CSV | Registrar despesas detalhadamente. |
 
 
 Você pode adaptar ou expandir esses dados conforme seu caso de uso.
