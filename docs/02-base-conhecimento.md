@@ -28,7 +28,25 @@ O perfil demonstra o tipo do usuário, qual seu salário e as metas de gastos no
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
 
-Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt
+````python
+
+Existe duas possibilidades: injetar diretamente no prompt (CTRL + C, CTRL + V ) ou carregar os arquivos via código, como no exemplo abaixo.
+
+#CSVs
+
+import pandas as pd
+import json
+
+gastos = pd.read_csv('data.gastos')
+balancete  = pd.read_csv('data.balancete')
+
+#JSONs
+
+with open('data/perfil.json', 'r', encoding = 'utf-8') as p:
+
+  produtos = json.load(p)
+
+````
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
@@ -42,7 +60,7 @@ Sim
 
 > Mostre um exemplo de como os dados são formatados para o agente.
 
-```
+``` text
 Dados do Cliente:
 - Nome: João Silva
 - Meta: R$ 2.500
