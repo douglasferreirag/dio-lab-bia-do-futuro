@@ -7,7 +7,8 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
 | `balancete.csv` | CSV | Gerar visão mensal do total de gastos. |
-| `perfil.json` | JSON | Identificar perfil com base em renda e metas. Personalizar recomendações com base nelas. |
+| `perfil.json` | JSON | Identificar perfil com base em renda. |
+| `metas.csv` | CSV | Registrar metas mensais |
 | `gastos.csv` | CSV | Registrar despesas detalhadamente. |
 
 
@@ -19,7 +20,8 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 A tabela  gastos vai mostrar as despesas do usuário detalhadamente.
 A tabela balancete vai mostrar quanto o usuário gastou mensalmente.
-O perfil demonstra o tipo do usuário, qual seu salário e as metas de gastos no mês.
+O perfil demonstra o tipo do usuário e qual seu salário.
+A tabela metas mostra as metas mensais que o usuário não pode ultrapassar.
 
 ---
 
