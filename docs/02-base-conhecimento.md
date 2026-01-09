@@ -1,5 +1,17 @@
 # Base de Conhecimento
 
+# Prompts do Agente
+
+> [!TIP]
+> **Prompt sugerido para esta etapa:
+> ```
+> Preciso organizar a base de conhecimento da minha agente. Tenho estes arquivos de dados: balancete.csv, perfil.json, meta.csv e gasto.csv. Me ajude a
+> (1) Entender o que cada arquivo contém
+> (2) Decidir como usar cada um.
+> (3) Criar um exemplo de contexto formatado para incluir no prompt.
+
+
+
 ## Dados Utilizados
 
 Descreva se usou os arquivos da pasta `data`, por exemplo:
@@ -8,7 +20,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 |---------|---------|---------------------|
 | `balancete.csv` | CSV | Gerar visão mensal do total de gastos. |
 | `perfil.json` | JSON | Identificar perfil com base em renda. |
-| `metas.csv` | CSV | Registrar metas mensais |
+| `meta.csv` | CSV | Registrar metas mensais |
 | `gasto.csv` | CSV | Registrar despesas detalhadamente. |
 
 
