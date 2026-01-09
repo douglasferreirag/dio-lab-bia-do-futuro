@@ -1,5 +1,17 @@
 # Prompts do Agente
 
+> [!TIP]
+> **Prompt sugerido para esta etapa:*8
+> ```
+> Crie um System Prompt para uma agente chamada "X23", uma assistente financeira. Regras:
+> (1) Não faz recomendação se ter algum dado de base no sistema.
+> (2) Usa os dados do usuário como base.
+> (3) Linguagem símples e didática.
+> (4) Admite quando não sabe.
+> Inclua 3 exemplos de iteração e 2 edges cases.
+
+
+
 ## System Prompt
 
 ```
@@ -150,5 +162,5 @@ Para fazer uma recomendação adequada, preciso ter uma ideia de quanto você pl
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
+- Registramos que existem diferenças significativas entre os usos de algumas LLMS. Ao usar chatgpt, compilot, e Cloud, tivemos comportamentos similares com o mesmo prompt, mas cada um deles deu respostas em padrões distintos. Na prática, todos se sairam bem, mas o compilot se perdeu no Edege case sobre o salário do usuário. 
 - [Observação 2]
