@@ -1,6 +1,6 @@
 # Base de Conhecimento
 
-# Prompts do Agente
+# Prompts da Agente
 
 > [!TIP]
 > **Prompt usado para esta etapa:
