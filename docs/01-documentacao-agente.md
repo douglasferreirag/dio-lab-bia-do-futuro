@@ -3,7 +3,7 @@
 # Prompts do Agente
 
 > [!TIP]
-> **Prompt usado para esta etapa:
+> Prompt usado para esta etapa:
 >  Me ajude a documentar um agente financeiro. O caso de uso é controle de gastos. Preciso definir: problema que resolve, publico alvo, personalidade do agente, tom de voz e estratégias anti-alucinações. Use o template abaixo como base.
 [cole o template 01-documentacao-agente.md]
 
