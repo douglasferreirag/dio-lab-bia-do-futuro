@@ -71,18 +71,14 @@ Existe duas possibilidades: injetar diretamente no prompt (CTRL + C, CTRL + V ) 
 
 #CSVs
 
-import pandas as pd
 import json
+import pandas as pd
 
-gastos = pd.read_csv('data.gastos')
-balancete  = pd.read_csv('data.balancete')
-meta  = pd.read_csv('data.meta')
-
-#JSONs
-
-with open('data/perfil.json', 'r', encoding = 'utf-8') as p:
-
-  produtos = json.load(p)
+# =====================CARREGAR DADOS ===================
+perfil = json.load(open('./data/perfil.json'))
+gastos = pd.read_csv('./data/gastos.csv')
+balancete = pd.read_csv('./data/balancete.csv')
+meta = pd.read_csv('./data/meta.csv')
 
 ````
 
