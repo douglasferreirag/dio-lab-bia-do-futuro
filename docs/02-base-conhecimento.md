@@ -5,7 +5,31 @@
 > [!TIP]
 > **Prompt usado para esta etapa:
 > ```
-> Preciso organizar a base de conhecimento da minha agente. Tenho estes arquivos de dados: balancete.csv, perfil.json, meta.csv e gasto.csv. Me ajude a
+> Preciso organizar a base de conhecimento da minha agente. Tenho estes arquivos de dados: balancete.csv, perfil.json, meta.csv e gasto.csv.
+>  Gere cada arquivo e popule ele com dados fictícios sendo:
+    >  Arquivo perfil.json:
+>       > Um campo id numerico autoincrementável.
+>       > Um campo nome, sendo uma string.
+>       > Um campo idade numerico.
+>       > Um campo profissão sendo uma string
+>       > Um campo renda mensal sendo um campo do tipo double com 2 casas decimais.
+>   > Arquivo gasto.csv
+>     > Um campo data contendo a data do gasto
+>     > Um campo categoria contendo um texto.
+>     > Um campo descricao contendo um texto.
+>     > Um campo valor cum campo do tipo double com 2 casas decimais.
+>     > Um campo id_perfil contendo um número que será importado do perfil.json. É a id autoincrementada do perfil.
+>   > Arquivo balancete:
+>     > Um campo mês inteiro, sendo entre 1 a 12
+>     > Um campo ano inteiro maior que 0
+>     > Um campo valor um campo do tipo double com 2 casas decimais.
+>     >  Um campo id_perfil contendo um número que será importado do perfil.json. É a id autoincrementada do perfil.
+>   > Arquivo meta
+>     >  Um campo mês inteiro, sendo entre 1 a 12
+>     > Um campo ano inteiro maior que 0
+>     > Um campo valor um campo do tipo double com 2 casas decimais.
+>     >  Um campo id_perfil contendo um número que será importado do perfil.json. É a id autoincrementada do perfil. 
+>  Me ajude a
 > (1) Entender o que cada arquivo contém
 > (2) Decidir como usar cada um.
 > (3) Criar um exemplo de contexto formatado para incluir no prompt.
