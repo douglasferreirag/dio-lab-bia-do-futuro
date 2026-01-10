@@ -3,8 +3,7 @@
 # Prompts da Agente
 
 > [!TIP]
-> **Prompt usado para esta etapa:
-> ```
+> Prompt usado para esta etapa:
 > Preciso organizar a base de conhecimento da minha agente. Tenho estes arquivos de dados: balancete.csv, perfil.json, meta.csv e gasto.csv.
 >  Gere cada arquivo e popule ele com dados fictícios sendo:
     >  Arquivo perfil.json:
