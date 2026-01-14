@@ -126,11 +126,18 @@ openai
 python-dotenv
 ```
 
+# Código completo
+
+Todo código está no app.py
+
 ## Como Rodar
 
 ```bash
 # Instalar dependências
 pip install -r requirements.txt
+
+#ollama
+Garantir que o ollama está rodando
 
 # Rodar a aplicação
 streamlit run app.py
